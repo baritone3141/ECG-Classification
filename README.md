@@ -1,7 +1,8 @@
 # ECG-Classification
 This is a project I worked on for the course project component of CENG 6000N (Deep Learning for Chemical and Biological Engineering) in the Hong Kong University of Science and Technology.
+IMPORTANT: Please download the dataset separately from the link provided below!
 ## Motivation
-Cardiovascular (heart) diseases are a leading cause of death worldwide (one of the top 10 according to various sources). Common heart diseases include myocardial infarction, dysrhythmia, cardiomyopathy, etc. For the diagnoses of heart diseases, electrocardiogram (ECG) is useful for doctors' timely diagnoses. It will be useful and helpful to automate the analysis of ECG, especially when there is a shortage of personnel.
+Cardiovascular (heart) diseases are a leading cause of death worldwide (one of the top 10 according to various sources). Common heart diseases include myocardial infarction, dysrhythmia, cardiomyopathy, etc. For the diagnosis of heart diseases, an electrocardiogram (ECG) is useful for doctors' timely diagnoses. It will be useful and helpful to automate the analysis of ECG, especially when there is a shortage of personnel.
 ## Objective
 The main objective of this project is to classify the type of Electrocardiogram (ECG) from a given dataset. The dataset used was the Physionet MIT-BIH Arrhythmia Dataset, [available here](https://www.physionet.org/content/mitdb/1.0.0/). This dataset was preprocessed by Shayan Fazeli on [Kaggle](https://www.kaggle.com/datasets/shayanfazeli/heartbeat) so that the ECG can be represented graphically.
 There are 5 main classes of ECG, namely, N, S, V, F, and Q. Each of the classes is a specific annotation that represents stages of a heartbeat. The diagram below provides the representation of each class.
